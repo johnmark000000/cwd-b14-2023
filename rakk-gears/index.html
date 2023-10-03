@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Icon CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Rakk Gears</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#">
+              <img
+                src="https://rakk.ph/wp-content/themes/astra/assets/images/logo.png"
+                alt="logo"
+                class="brand-logo"
+              />
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li>
+                <a
+                  class="nav-btn"
+                  href="https://www.facebook.com/groups/RAKKGears/"
+                  target="_blank"
+                  >Community</a
+                >
+              </li>
+              <!-- Dropdowns -->
+              <li>
+                <a
+                  class="dropdown-trigger nav-btn"
+                  href="#!"
+                  data-target="dropdown1"
+                  >Products<i class="material-icons right"
+                    >arrow_drop_down</i
+                  ></a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-trigger nav-btn"
+                  href="#!"
+                  data-target="dropdown2"
+                  >Support<i class="material-icons right">arrow_drop_down</i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!" class="white-text">Peripherals</a></li>
+          <li><a href="#!" class="white-text">System Unit Components</a></li>
+          <li><a href="#!" class="white-text">Chairs and Tables</a></li>
+        </ul>
+
+        <ul id="dropdown2" class="dropdown-content">
+          <li><a href="#!" class="white-text">Manuals</a></li>
+          <li><a href="#!" class="white-text">Drivers and Softwares</a></li>
+          <li><a href="#!" class="white-text">Terms and Conditions</a></li>
+          <li>
+            <a href="#!" class="white-text"
+              >Warranty, Disclaimers and Limitations of Liability</a
+            >
+          </li>
+        </ul>
+      </header>
+    </div>
+    <main>
+      <div class="section">
+        <img
+          src="https://rakk.ph/wp-content/uploads/2023/05/banner-7.jpg"
+          alt="banner-1"
+        />
+        <img
+          src="https://rakk.ph/wp-content/uploads/2023/05/banner-4.jpg"
+          alt="banner-2"
+        />
+      </div>
+
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large green">
+          <i class="large material-icons">shopping_cart</i>
+        </a>
+        <ul>
+          <li>
+            <a
+              href="https://shopee.ph/rakkph"
+              target="_blank"
+              class="btn-floating red"
+              >S</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.lazada.com.ph/shop/rakk?spm=a2o4l.searchlist.card.1.76615fedACv1x9&from=onesearch_brand_123829"
+              target="_blank"
+              class="btn-floating blue darken-4"
+              >L</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Materializecss Initialization -->
+    <script>
+      $(document).ready(function () {
+        $(".dropdown-trigger").dropdown({
+          coverTrigger: false,
+        });
+
+        $(".fixed-action-btn").floatingActionButton();
+      });
+    </script>
+  </body>
+</html>

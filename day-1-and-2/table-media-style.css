@@ -1,0 +1,39 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background-color: #f7f7f7;
+  height: 105px;
+}
+
+.slider {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 180%;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.gameplay-video {
+  display: flex;
+  justify-content: center;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+}
+
+.materialboxed {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin-bottom: 300px;
+}

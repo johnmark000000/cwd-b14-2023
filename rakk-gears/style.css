@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0c0c0f;
+}
+
+nav {
+  height: 4rem;
+  box-shadow: none !important;
+  background-color: transparent;
+}
+
+.brand-logo {
+  margin-top: 10px;
+  height: 80%;
+}
+
+.nav-btn:hover {
+  background-color: #9e9e9e;
+  color: #0c0c0f;
+  transition: background-color 0.9s ease;
+}
+
+.dropdown-content {
+  overflow: visible !important;
+  background-color: #0c0c0f;
+}
+
+.fixed-action-btn {
+  z-index: 100;
+}
